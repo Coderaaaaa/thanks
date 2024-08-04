@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Unbanning Me</title>
+    <style>
+        @keyframes rainbow {
+            0% { background-color: #ff0000; }
+            14% { background-color: #ff7f00; }
+            28% { background-color: #ffff00; }
+            42% { background-color: #00ff00; }
+            57% { background-color: #0000ff; }
+            71% { background-color: #4b0082; }
+            85% { background-color: #8b00ff; }
+            100% { background-color: #ff0000; }
+        }
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rainbow 7s infinite;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            background: #000; 
+        }
+        video {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; 
+        }
+        audio {
+            display: none; 
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="0804.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <audio id="background-music" src="low quality royalty free music.mp3" autoplay loop></audio>
+    <p style="text-align: top; font-size: 25px; color: #000;">THANK YOU!!!</p>
+    <p style="text-align: right; color:black;">Thank you  @XK5NG and Ball</p>
+</body>
+</html>
